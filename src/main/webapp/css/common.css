@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* [ 김찬영  2023-06-21 오후 04:27:54 ] */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "맑은 고딕" , "돋움";
+	font-size: 12px;
+	color: #444444;
+}
+ul{
+	list-style-type: none; /* li 태그 못나오게  */
+}
+.clear { /*글자가 옆에 붙어 나오는 것을 방지하기 위해 써준다. 줄바꿈이다.  float취소 */
+	clear:both;
+}
